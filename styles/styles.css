@@ -1,0 +1,28 @@
+body {
+    background-color: #fafafa !important;
+    /* height: 100vh; */
+}
+
+html {
+    min-height: 100vh;
+}
+
+.customnavbar {
+    background-color: #C0CBC5 !important;
+
+}
+
+.customnavbar a {
+    color: white;
+    font-weight: 600;
+}
+
+.kurvbild1 {
+    width: 100%;
+}
+
+.about {
+    background-color: #C0CBC5;
+    height: 300px;
+}
+
