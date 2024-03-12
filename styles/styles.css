@@ -53,6 +53,12 @@ html {
     height: 200px;
 }
 
+.backgroundcolor {
+    background-color: #c0cbc5;
+    margin-bottom: 0px;
+    padding-bottom: 50px;
+}
+
 footer {
     background-color: #688588;
 }
