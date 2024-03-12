@@ -17,6 +17,28 @@ html {
     font-weight: 600;
 }
 
+.header {
+    min-height: 400px;
+}
+
+.jumbotron {
+    background-color: #2b5559b5;
+    padding: 40px;
+    border-radius: 5px;
+    color: white;
+}
+
+.profilbild {
+    height: 400px;
+    border-radius: 50%;
+
+}
+
+.profilbildcontainer {
+    display: flex;
+    justify-content: flex-end;
+}
+
 .kurvbild1 {
     width: 100%;
 }
@@ -26,3 +48,25 @@ html {
     height: 300px;
 }
 
+.symbolcontainer {
+    background-color: #c0cbc5;
+    height: 200px;
+}
+
+footer {
+    background-color: #688588;
+}
+
+@media (max-width: 991px) {
+    .profilbild {
+        height: 300px;
+    
+    }
+}
+
+@media (max-width: 768px) {
+    .profilbildcontainer {
+        display: flex;
+        justify-content: center;
+    }
+}
