@@ -15,11 +15,20 @@ html {
 .customnavbar a {
     /* color: white; */
     font-weight: 600;
+    transition: color 0.5s ease, transform 0.5s ease;
+}
+
+.customnavbar a:hover {
+    color: #fddc7a;
+    transform: scale(1.5);
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 .header {
     min-height: 400px;
 }
+
 
 .jumbotron {
     /* background-color: #2b5559b5; */
@@ -76,6 +85,25 @@ footer {
     color: white;
     /* padding: 50px; */
 }
+
+.iconlink2 {
+    color: #0006ff82;
+    text-decoration: none;
+    font-size: 30px;
+    padding-right: 30px;
+}
+
+.iconlink2:hover {
+    color: blue !important;
+    margin-left: 0px !important;
+    margin-right: 0px !important
+    ;
+}
+
+.iconlink:hover {
+    color: grey;
+}
+
 
 .contectinformation {
     padding-left: 50px;
