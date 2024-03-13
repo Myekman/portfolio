@@ -7,13 +7,13 @@ html {
     min-height: 100vh;
 }
 
-.customnavbar {
+/* .customnavbar {
     background-color: #C0CBC5 !important;
 
-}
+} */
 
 .customnavbar a {
-    color: white;
+    /* color: white; */
     font-weight: 600;
 }
 
@@ -22,21 +22,28 @@ html {
 }
 
 .jumbotron {
-    background-color: #2b5559b5;
+    /* background-color: #2b5559b5; */
     padding: 40px;
     border-radius: 5px;
-    color: white;
+    color: black;
 }
 
 .profilbild {
     height: 400px;
     border-radius: 50%;
+    z-index: 1;
+    transition: opacity 0.5s ease-in-out;
 
+}
+
+.profilbild:hover {
+    opacity: 0.8;
 }
 
 .profilbildcontainer {
     display: flex;
     justify-content: flex-end;
+
 }
 
 .kurvbild1 {
@@ -44,23 +51,34 @@ html {
 }
 
 .about {
-    background-color: #C0CBC5;
+    background-color: #fddc7a;
     height: 300px;
 }
 
 .symbolcontainer {
-    background-color: #c0cbc5;
+    background-color: #fddc7a;
     height: 200px;
 }
 
 .backgroundcolor {
-    background-color: #c0cbc5;
+    background-color: #fddc7a;
     margin-bottom: 0px;
     padding-bottom: 50px;
 }
 
 footer {
-    background-color: #688588;
+    background-color: #b0b0b0;
+}
+
+.iconlink {
+    text-decoration: none;
+    font-size: 30px;
+    color: white;
+    /* padding: 50px; */
+}
+
+.contectinformation {
+    padding-left: 50px;
 }
 
 @media (max-width: 991px) {
