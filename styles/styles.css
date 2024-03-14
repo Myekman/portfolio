@@ -1,6 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+p {
+    font-family: "Raleway", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    
+}
+
+a {
+    font-family: "Oswald", sans-serif;
+}
+
 body {
     background-color: #fafafa !important;
     /* height: 100vh; */
+}
+
+h1, h1, h2, h3, h4, h5, h6 {
+    font-family: "Oswald", sans-serif;
 }
 
 html {
@@ -8,7 +26,7 @@ html {
 }
 
 .customnavbar a {
-    /* color: white; */
+    font-family: "Oswald", sans-serif;
     font-weight: 600;
     transition: color 0.5s ease, transform 0.5s ease;
 }
@@ -87,14 +105,20 @@ html {
 
 .projektbild {
     transition: opacity 0.5s ease-in-out;
+    border-radius: 4px;
 }
 
 .projektbild:hover {
     opacity: 0.8;
 }
 
+.carousel-inner {
+    padding: 200px;
+}
+
 footer {
     background-color: #b0b0b0;
+    margin-top: -10px;
 }
 
 .iconlink {
@@ -139,11 +163,19 @@ footer {
         display: flex;
         justify-content: center;
     }
+
+    .carousel-inner {
+        padding: 100px;
+    }
 }
 
 /* styles/styles.css */
 @media (max-width: 500px) {
     .link-container {
       text-align: left;
+    }
+
+    .carousel-inner {
+        padding: 0px;
     }
   }
