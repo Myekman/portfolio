@@ -152,9 +152,30 @@ footer {
 }
 
 
-.contectinformation {
-    padding-left: 50px;
-}
+/* .contactcontainer {
+
+} */
+
+.contact-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .contact-title {
+    margin-bottom: 1rem;
+  }
+  
+  .contact-info {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+  
 
 @media (max-width: 991px) {
     .profilbild {
@@ -172,6 +193,7 @@ footer {
     .carousel-inner {
         padding: 100px;
     }
+
 }
 
 /* styles/styles.css */
