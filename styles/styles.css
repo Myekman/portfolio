@@ -29,6 +29,7 @@ html {
     font-family: "Oswald", sans-serif;
     font-weight: 600;
     transition: color 0.5s ease, transform 0.5s ease;
+    font-size: 20px;
 }
 
 .customnavbar a:hover {
@@ -36,6 +37,21 @@ html {
     transform: scale(1.5);
     margin-left: 10px;
     margin-right: 10px;
+}
+
+.hellotitle {
+    font-weight: 700;
+    font-size: 70px;
+}
+
+.hellotext { 
+    font-size: 30px;
+    font-weight: 200;
+
+}
+
+hellotext1 {
+    color: #fddc7a !important;
 }
 
 .header {
@@ -131,11 +147,17 @@ html {
     border-radius: 3px;
 }
 
+/* bluebell ceramics */
 .karusellimage {
     height: 400px;
 }
 
-
+.carousel-item img {
+    max-height: 600px; /* Justera höjden efter dina behov */
+    width: auto; /* Behåll bildens proportioner */
+    margin: auto; /* Centrera bilden horisontellt */
+  }
+  
 
 .carousel-inner {
     padding: 200px;
@@ -144,6 +166,7 @@ html {
 footer {
     background-color: #b0b0b0;
     margin-top: -10px;
+    padding-bottom: 20px;
 }
 
 .iconlink {
@@ -157,7 +180,11 @@ footer {
     color: #0006ff82;
     text-decoration: none;
     font-size: 30px;
-    padding-right: 30px;
+    padding-right: 300px;
+}
+
+a.iconlink2 {
+    font-size: 30px;
 }
 
 .iconlink2:hover {
@@ -172,9 +199,6 @@ footer {
 }
 
 
-/* .contactcontainer {
-
-} */
 
 .contact-container {
     max-width: 1200px;
@@ -202,7 +226,16 @@ footer {
         height: 300px;
     
     }
+
+    .hellotext {
+        font-size: 20px;
+    }
+
+    .hellotitle {
+        font-size: 55px;
+    }
 }
+
 
 @media (max-width: 768px) {
     .profilbildcontainer {
@@ -212,6 +245,17 @@ footer {
 
     .carousel-inner {
         padding: 100px;
+    }
+
+    .iconlink2 {
+        color: #0006ff82;
+        text-decoration: none;
+        padding-right: 100px;
+    }
+
+
+    .customnavbar a {
+        font-size: 15px;
     }
 
 }
@@ -225,4 +269,6 @@ footer {
     .carousel-inner {
         padding: 0px;
     }
+
   }
+

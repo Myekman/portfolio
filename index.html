@@ -16,7 +16,7 @@
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarText">
+            <div class="collapse navbar-collapse d-flex justify-content-center" id="navbarText">
               <ul class="navbar-nav mr-auto">
                 <li class="nav-item active">
                   <a class="nav-link" href="index.html">Hem</a>
@@ -28,7 +28,7 @@
                   <a class="nav-link" href="index.html#projekt">Projekt</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="styles/images/MyekmanCV2024.pdf" target="_blank">CV</a>
+                    <a class="nav-link" href="styles/images/myekmanCV.pdf" target="_blank">CV</a>
                 </li>
               </ul>
             </div>
@@ -36,11 +36,13 @@
               <i class="fab fa-linkedin"></i>
             </a>
           </nav>
-          <div class="container">
+
+          <!-- design för större skärmar -->
+          <div class="container d-none d-md-block">
             <div class="row jumbotron">
                 <div class="col-12 col-md-6">
-                    <h1>Hej, jag heter My Ekman</h1>
-                    <p class="mt-4">
+                    <h1 class="hellotitle">Hej, jag heter<br> My Ekman</h1>
+                    <p class="mt-4 hellotext">
                       Som en framåtsträvande och strukturerad individ, tar jag initiativ och är proaktiv i mina tillvägagångssätt.
                       Min strukturerande och organiserande approach gör mig till en pålitlig lagspelare som alltid strävar efter effektivitet och framgång.
                     </p>
@@ -48,9 +50,31 @@
              
                  <div class="col-12 col-md-6 profilbildcontainer">
                     <img src="styles/images/profilmy2.png" alt="profilbild" class="profilbild"/>
-                </div>
+                </div> 
             </div>
           </div>
+
+          <!-- design för mindre skärmar -->
+          <div class="container d-md-none">
+            <div class="row jumbotron align-items-center">
+              <div class="col-12 col-md-4 order-md-1">
+                <h1 class="hellotitle">Hej, jag heter<br> My Ekman</h1>
+              </div>
+          
+              <div class="col-12 col-md-4 order-md-0 text-center text-md-right">
+                <img src="styles/images/profilmy2.png" alt="profilbild" class="profilbild"/>
+              </div>
+          
+              <div class="col-12 col-md-4 order-md-2">
+                <p class="mt-4 hellotext">
+                  Som en framåtsträvande och strukturerad individ, tar jag initiativ och är proaktiv i mina tillvägagångssätt.
+                  Min strukturerande och organiserande approach gör mig till en pålitlig lagspelare som alltid strävar efter effektivitet och framgång.
+                </p>
+              </div>
+            </div>
+          </div>
+          
+          
     </div>
 
       <main class="flex-grow-1">
@@ -83,16 +107,18 @@
         <div class="container projekt1" id="projekt">
           <div class="row">
             <div class="col-12">
-              <h5>Plattformen Innovationsfiskar</h5>
+              <h5>Plattformen Idéfiskar</h5>
             </div>
-            <div class="col-8 col-md-6 d-md-block mt-4">
-              <img src="styles/images/inledning.png" class="img-fluid projektbild" alt="Bild för Innovationsfiskar">
+            <div class="col-8 col-md-6 d-md-block mt-4 projekt1">
+              <a href="idefiskar.html" class="link">
+                <img src="styles/images/inledning.png" class="img-fluid projektbild" alt="Bild för Innovationsfiskar">
+              </a>
             </div>
-            <div class="col-12 mt-4">
+            <div class="col-12 mt-4 projekt1">
               <p>Ett projekt skapat under min praktik på Sweco</p>
             </div>
             <div class="col-12 d-md-block mt-4">
-              <a href="idefiskar.html" class="link">Läs mer här</a>
+              <a href="idefiskar.html" class="link projekt1">Läs mer här</a>
               <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-arrow-left-short" viewBox="0 0 16 16">
                 <path fill-rule="evenodd" d="M12 8a.5.5 0 0 1-.5.5H5.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5H11.5a.5.5 0 0 1 .5.5"/>
               </svg>
@@ -107,13 +133,39 @@
                 <h5>Bluebell Ceramics</h5>
               </div>
               <div class="col-8 col-md-6 d-md-block mt-4">
-                <img src="styles/images/ceramicsproject.png" class="img-fluid projektbild" alt="Bild för Innovationsfiskar">
+                <a href="ceramics.html" class="link">
+                  <img src="styles/images/ceramicsproject.png" class="img-fluid projektbild" alt="Bild för Innovationsfiskar">
+                </a>
               </div>
               <div class="col-12 mt-4">
                 <p>En fiktiv hemsida för keramikstudion Bluebell Ceramics.</p>
               </div>
               <div class="col-12 d-md-block mt-4">
                 <a href="ceramics.html" class="link">Läs mer här</a>
+                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-arrow-left-short" viewBox="0 0 16 16">
+                  <path fill-rule="evenodd" d="M12 8a.5.5 0 0 1-.5.5H5.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5H11.5a.5.5 0 0 1 .5.5"/>
+                </svg>
+              </div>
+            </div>
+          </div>
+
+          
+          <!-- PJOJEKT 3-->
+          <div class="container projekt1" id="projekt">
+            <div class="row">
+              <div class="col-12">
+                <h5>Myrakel Design</h5>
+              </div>
+              <div class="col-8 col-md-6 d-md-block mt-4">
+                <a href="myrakel.html" class="link">
+                  <img src="styles/images/MYRAKEL DESIGN.png" class="img-fluid projektbild" alt="Bild för Innovationsfiskar">
+                </a>
+              </div>
+              <div class="col-12 mt-4">
+                <p>Det här projektet är under progress, min egen sida för min konst.</p>
+              </div>
+              <div class="col-12 d-md-block mt-4">
+                <a href="myrakel.html" class="link">Läs mer här</a>
                 <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-arrow-left-short" viewBox="0 0 16 16">
                   <path fill-rule="evenodd" d="M12 8a.5.5 0 0 1-.5.5H5.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5H11.5a.5.5 0 0 1 .5.5"/>
                 </svg>
