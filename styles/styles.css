@@ -3,7 +3,8 @@
 
 p {
     font-family: "Raleway", sans-serif;
-    font-weight: 500;
+    font-weight: 400;
+    line-height: 2;
     /* font-size: 20px; */
     
 }
@@ -84,7 +85,7 @@ hellotext1 {
 
 }
 
-.kurvbild1 {
+/* .kurvbild1 {
     width: 100%;
 }
 
@@ -106,10 +107,21 @@ hellotext1 {
 
 .gulcontainer {
     margin-top: -10px;
+} */
+
+/* .flyttasvg {
+    margin-top: -10px;
+} */
+
+.projectheading {
+    background-color: #4743440a;
 }
 
-.flyttasvg {
-    margin-top: -10px;
+.projectbeskrivning {
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #b0b0b023;
+
 }
 
 .projekt1 .row {
@@ -148,12 +160,12 @@ hellotext1 {
 }
 
 /* bluebell ceramics */
-.karusellimage {
+.imgceramics {
     height: 400px;
 }
 
 .carousel-item img {
-    max-height: 600px; /* Justera höjden efter dina behov */
+    max-height: 500px; /* Justera höjden efter dina behov */
     width: auto; /* Behåll bildens proportioner */
     margin: auto; /* Centrera bilden horisontellt */
   }
@@ -196,6 +208,11 @@ a.iconlink2 {
 
 .iconlink:hover {
     color: grey;
+}
+
+.fa-linkedin:before {
+    content: "\f08c";
+    font-size: 35px;
 }
 
 
@@ -250,9 +267,16 @@ a.iconlink2 {
     .iconlink2 {
         color: #0006ff82;
         text-decoration: none;
-        padding-right: 100px;
+        padding-right: 80px;
     }
 
+    .fa-linkedin:before {
+        content: "\f08c";
+        font-size: 25px;
+    }
+    .imgceramics {
+        height: 300px;
+    }
 
     .customnavbar a {
         font-size: 15px;
@@ -268,6 +292,10 @@ a.iconlink2 {
 
     .carousel-inner {
         padding: 0px;
+    }
+
+    .imgceramics {
+        height: 200px;
     }
 
   }
