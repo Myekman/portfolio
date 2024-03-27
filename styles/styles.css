@@ -161,7 +161,7 @@ hellotext1 {
 
 /* bluebell ceramics */
 .imgceramics {
-    height: 400px;
+    height: 500px;
 }
 
 .carousel-item img {
@@ -275,7 +275,7 @@ a.iconlink2 {
         font-size: 25px;
     }
     .imgceramics {
-        height: 300px;
+        height: 400px;
     }
 
     .customnavbar a {
