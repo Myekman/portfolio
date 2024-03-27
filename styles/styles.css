@@ -113,6 +113,10 @@ hellotext1 {
     margin-top: -10px;
 } */
 
+.padding {
+    padding: 10px;
+}
+
 .projectheading {
     background-color: #4743440a;
 }
@@ -179,6 +183,11 @@ footer {
     background-color: #b0b0b0;
     margin-top: -10px;
     padding-bottom: 20px;
+}
+
+.number {
+    text-decoration: none;
+    color: white;
 }
 
 .iconlink {
