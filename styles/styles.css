@@ -119,6 +119,10 @@ hellotext1 {
 
 .projectheading {
     background-color: #4743440a;
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    border-radius: 5px;
 }
 
 .projectbeskrivning {
